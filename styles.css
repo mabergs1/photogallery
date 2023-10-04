@@ -166,9 +166,10 @@ figure > figcaption {
 .gallery > figure:nth-of-type(12) figcaption {
     color: #ffffff;
 }
-#contact {
+.form {
     color: #ffffff;
     background-color: #000000;
+    margin: 0;
 }
 h3 {
     visibility: hidden;
@@ -194,6 +195,7 @@ form label {
 input::placeholder {
     color: #007d7b;
     text-transform: uppercase;
+    font-weight: bold;
 }
 form input [type="text"],
 form input [type="email"],
