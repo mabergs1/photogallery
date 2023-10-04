@@ -79,4 +79,5 @@ h2 {
 }
 #gallery, #image {
     background-color: #ffffff;
+    align-items: center;
 }
