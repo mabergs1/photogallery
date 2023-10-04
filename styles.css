@@ -241,4 +241,19 @@ footer {
     .gallery > figure:nth-of-type(3) figcaption{
         bottom: 350px;
     }
+
+    @media screen and (min-width: 1300px) {
+        body{
+            max-width: 1300px;
+        }
+        .gallery{
+            grid-template-columns: repeat(3, 1fr);
+        }
+        nav ul{
+            justify-content: right;
+        }
+        .gallery > figure:nth-of-type(3) figcaption{
+            bottom: 10px;
+        }
+    }
 }
