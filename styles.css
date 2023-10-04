@@ -64,8 +64,22 @@ p {
 figcaption, label, input, small {
     font-size: 1em;
 }
+nav ul {
+    background-color: #000000;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
 nav a {
     font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+nav a:hover {
+    background-color: #007d7b;
 }
 h1 {
     font-size: 3em;
@@ -92,4 +106,8 @@ h1, h2, nav a {
     bottom:0px;
     right:0px;
     border-radius:10px 0 0px 0px;
+  }
+  figcaption {
+    text-align: center;
+    text-transform: uppercase;
   }
