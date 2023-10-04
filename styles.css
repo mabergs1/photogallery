@@ -173,8 +173,22 @@ figure > figcaption {
 h3 {
     visibility: hidden;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+label, input, form p {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 input::placeholder {
     color: #007d7b;
+    text-transform: uppercase;
 }
 form input [type="submit"] {
     color: #ffffff;
