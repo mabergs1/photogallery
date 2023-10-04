@@ -115,6 +115,7 @@ h1, h2, nav a {
 img {
     display: block;
     width: 100%;
+    padding: 10px;
 }
 figcaption {
     text-align: center;
@@ -127,6 +128,7 @@ figure {
 figure>figcaption {
     position: absolute;
     text-align: center;
+    width: auto;
     transform: translateZ(-1);
 }
 #gallery {
