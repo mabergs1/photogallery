@@ -196,14 +196,16 @@ input::placeholder {
     text-transform: uppercase;
 }
 form input [type="submit"] {
-    color: #ffffff;
     background-color: #007d7b;
-    cursor: pointer;
+    color: #ffffff;
     border: none;
     padding: .5em;
     border-radius: 15px;
     width: 50%;
     margin-bottom: 50px;
+}
+form input [type="submit"]:hover {
+    cursor: pointer;
 }
 
 footer {
