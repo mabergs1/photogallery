@@ -77,7 +77,8 @@ nav a {
     text-decoration: none;
     color: #ffffff;
     margin-right: 20px;
-    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     text-transform: uppercase;
 }
 nav a:hover {
@@ -104,9 +105,11 @@ h2 {
 }
 h1, h2, nav a {
     text-transform: uppercase;
+    padding: 0 20px; 
 }
 #mainbackground {
     background-color: #ffffff;
+    padding: 0 20px;
     align-items: center;
 }
 
