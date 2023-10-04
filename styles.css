@@ -116,6 +116,9 @@ figcaption {
 #contact {
     color: #ffffff;
 }
+input::placeholder {
+    color: #007d7b;
+}
 
 
 footer {
