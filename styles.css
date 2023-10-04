@@ -45,3 +45,11 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/* END RESET CODE */
+
+html {
+    background-color: #000000;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
