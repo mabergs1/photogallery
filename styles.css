@@ -129,7 +129,7 @@ figure>figcaption {
     position: absolute;
     text-align: center;
     width: auto;
-    transform: translateZ(-1);
+    transform: translate(-50%, -50%);
 }
 #gallery {
     display: grid;
