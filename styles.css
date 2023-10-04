@@ -185,6 +185,9 @@ label, input, form p {
     width: 100%;
     margin-bottom: 10px;
 }
+form p {
+    text-align: center;
+}
 
 input::placeholder {
     color: #007d7b;
