@@ -188,7 +188,9 @@ label, input, form p {
 form p {
     text-align: center;
 }
-
+label {
+    margin-bottom: 0;
+}
 input::placeholder {
     color: #007d7b;
     text-transform: uppercase;
