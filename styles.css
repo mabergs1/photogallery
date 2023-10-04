@@ -77,7 +77,16 @@ h2 {
     font-size: 2em;
     text-align: center;
 }
+h1, h2, nav a {
+    text-transform: uppercase;
+}
 #gallery, #image {
     background-color: #ffffff;
     align-items: center;
 }
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+  }
