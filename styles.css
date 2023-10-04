@@ -168,7 +168,8 @@ figure > figcaption {
 .form {
     color: #ffffff;
     background-color: #000000;
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
 }
 h3 {
     visibility: hidden;
@@ -197,6 +198,7 @@ input::placeholder {
     color: #007d7b;
     text-transform: uppercase;
     font-weight: bold;
+    padding-left: 10px;
 }
 form input [type="text"],
 form input [type="email"],
