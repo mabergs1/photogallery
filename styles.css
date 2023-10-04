@@ -161,6 +161,7 @@ figure > figcaption {
 }
 #contact {
     color: #ffffff;
+    background-color: #000000;
 }
 h3 {
     visibility: hidden;
@@ -181,5 +182,6 @@ form input [type="submit"] {
 
 footer {
     color: #ffffff;
+    background-color: #000000;
     text-align: center;
 }
