@@ -55,6 +55,8 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 485px;
+    width: 100%;
+    margin: 0 auto;
 }
 p {
     font-size: 1.25em;
@@ -69,9 +71,11 @@ h1 {
     font-size: 3em;
     color: #007d7b;
     background-color: #ffffff;
+    text-align: left;
 }
 h2 {
     font-size: 2em;
+    text-align: center;
 }
 #gallery, #image {
     background-color: #ffffff;
