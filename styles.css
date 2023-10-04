@@ -124,15 +124,15 @@ figcaption {
     text-align: center;
     text-transform: uppercase;
 }
-figure {
-    position: relative;
-    padding: 5%;
-}
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
     gap: 5px;
+}
+figure {
+    position: relative;
+    padding: 5%;
 }
 figure > figcaption {
     position: absolute;
@@ -181,7 +181,9 @@ form {
     width: 90%;
     margin: 0 auto;
 }
-form label, form input, form p {
+form label, 
+form input, 
+form p {
     width: 100%;
     margin-bottom: 10px;
 }
