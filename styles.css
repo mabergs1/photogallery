@@ -129,10 +129,10 @@ figure {
     position: relative;
     padding: 5%;
 }
-figure>figcaption {
+figure > figcaption {
     position: absolute;
     text-align: center;
-    width: auto;
+    width: 90%;
     transform: translate(-50%, -50%);
 }
 .gallery {
@@ -140,6 +140,24 @@ figure>figcaption {
     grid-template-columns: 1fr;
     position: relative;
     gap: 5px;
+}
+.gallery > figure:nth-of-type(1) figcaption,
+.gallery > figure:nth-of-type(3) figcaption,
+.gallery > figure:nth-of-type(6) figcaption,
+.gallery > figure:nth-of-type(7) figcaption {
+    bottom: 10px;
+    left: 50%;
+}
+.gallery > figure:nth-of-type(2) figcaption,
+.gallery > figure:nth-of-type(4) figcaption,
+.gallery > figure:nth-of-type(5) figcaption,
+.gallery > figure:nth-of-type(8) figcaption,
+.gallery > figure:nth-of-type(9) figcaption,
+.gallery > figure:nth-of-type(10) figcaption,
+.gallery > figure:nth-of-type(11) figcaption,
+.gallery > figure:nth-of-type(12) figcaption {
+    top: 20px;
+    left: 50%;
 }
 #contact {
     color: #ffffff;
