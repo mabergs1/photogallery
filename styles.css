@@ -111,7 +111,7 @@ h2 {
 h1, h2, nav a {
     text-transform: uppercase; 
 }
-#mainbackground {
+.mainbg {
     background-color: #ffffff;
     padding: 0 20px;
     margin: 0 auto;
