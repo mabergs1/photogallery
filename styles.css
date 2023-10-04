@@ -61,6 +61,7 @@ body {
 p {
     font-size: 1.25em;
     padding: 10px;
+    margin-bottom: 10px;
 }
 figcaption, label, input, small {
     font-size: 1em;
@@ -77,8 +78,8 @@ nav a {
     text-decoration: none;
     color: #ffffff;
     margin-right: 20px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-transform: uppercase;
 }
 nav a:hover {
