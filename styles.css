@@ -72,11 +72,13 @@ h1 {
     color: #007d7b;
     background-color: #ffffff;
     text-align: left;
+    font-weight: bold;
 }
 h2 {
     font-size: 2em;
     text-align: center;
     margin: 10px;
+    font-weight: bold;
 }
 h1, h2, nav a {
     text-transform: uppercase;
