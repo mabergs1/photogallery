@@ -64,7 +64,11 @@ nav a {
 }
 h1 {
     font-size: 3em;
+    background-color: #ffffff;
 }
 h2 {
     font-size: 2em;
+}
+#gallery, #image {
+    background-color: #ffffff;
 }
