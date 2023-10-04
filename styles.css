@@ -116,6 +116,9 @@ figcaption {
 #contact {
     color: #ffffff;
 }
+legend {
+    visibility: hidden;
+}
 input::placeholder {
     color: #007d7b;
 }
