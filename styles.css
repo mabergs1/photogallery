@@ -159,6 +159,13 @@ figure > figcaption {
     top: 20px;
     left: 50%;
 }
+.gallery > figure:nth-of-type() figcaption,
+.gallery > figure:nth-of-type() figcaption,
+.gallery > figure:nth-of-type() figcaption,
+.gallery > figure:nth-of-type() figcaption,
+.gallery > figure:nth-of-type() figcaption {
+    color: #ffffff;
+}
 #contact {
     color: #ffffff;
     background-color: #000000;
