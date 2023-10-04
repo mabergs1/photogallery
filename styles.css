@@ -119,6 +119,20 @@ figcaption {
     text-align: center;
     text-transform: uppercase;
 }
+figure {
+    position: relative;
+}
+figure>figcaption {
+    position: absolute;
+    text-align: center;
+    transform: translateZ(1);
+}
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    gap: 5px;
+}
 #contact {
     color: #ffffff;
 }
